@@ -1,7 +1,7 @@
 export interface Activity {
     id: string;
     title: string;
-    date: Date;
+    date: string; // TODO make date DATE type
     description: string;
     category: string;
     city: string;
